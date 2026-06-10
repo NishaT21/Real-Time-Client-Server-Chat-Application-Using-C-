@@ -38,3 +38,20 @@ The application uses asynchronous programming to continuously listen for incomin
 <p>
 A custom console handling mechanism has been implemented to prevent incoming messages from interrupting or overwriting partially typed text, ensuring a smooth chat experience.
 </p>
+
+<h3>🛠 Technologies Used</h3>
+
+<ul>
+    <li>C# and .NET</li>
+    <li>TCP/IP Sockets</li>
+    <li>TcpListener & TcpClient</li>
+    <li>NetworkStream</li>
+    <li>StreamReader & StreamWriter</li>
+    <li>Async/Await Programming</li>
+</ul>
+
+<h3>✅ Outcome</h3>
+
+<p>
+Developed a real-time client-server chat application that supports asynchronous two-way communication over TCP connections.
+</p>

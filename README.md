@@ -52,3 +52,36 @@ A custom console handling mechanism has been implemented to prevent incoming mes
 
 
 <img src="flowchart.png" alt="Flowchart" width="300">
+
+
+## 📡 Server Application Execution Flow
+
+```text
+Program Class Loaded
+│
+├── Class Fields Initialized
+│     ├── consoleLock
+│     ├── typedText
+│     ├── isTyping
+│     └── currentPrompt
+│
+└── Main() Starts
+      │
+      ├── Create TcpListener
+      ├── Start Listening on 127.0.0.1:8001
+      ├── Wait for Client Connection
+      ├── Client Connected
+      ├── Create NetworkStream
+      ├── Create StreamReader and StreamWriter
+      │
+      ├── Start Receive Task
+      │     └── ReceiveMessages(reader)
+      │           └── Continuously reads incoming client messages
+      │
+      ├── Start Send Task
+      │     └── SendMessages(writer)
+      │           └── Allows server user to type and send messages
+      │
+      └── Wait until one task finishes
+            └── Usually when "exit" is typed or connection is closed
+```

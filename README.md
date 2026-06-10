@@ -50,8 +50,3 @@ A custom console handling mechanism has been implemented to prevent incoming mes
     <li>Async/Await Programming</li>
 </ul>
 
-<h3>✅ Outcome</h3>
-
-<p>
-Developed a real-time client-server chat application that supports asynchronous two-way communication over TCP connections.
-</p>

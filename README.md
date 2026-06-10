@@ -85,3 +85,37 @@ Program Class Loaded
       └── Wait until one task finishes
             └── Usually when "exit" is typed or connection is closed
 ```
+
+## 💻 Client Application Execution Flow
+
+```text
+Program Class Loaded
+│
+├── Class Variables Created
+│     ├── consoleLock
+│     ├── typedText
+│     ├── isTyping
+│     └── currentPrompt
+│
+└── Main() Starts
+      │
+      ├── Create TcpClient
+      ├── Try to Connect to Server
+      │     └── IP Address: 127.0.0.1
+      │     └── Port: 8001
+      │
+      ├── Connection Established
+      ├── Create NetworkStream
+      ├── Create StreamReader and StreamWriter
+      │
+      ├── Start Receive Task
+      │     └── ReceiveMessages(reader)
+      │           └── Continuously reads incoming server messages
+      │
+      ├── Start Send Task
+      │     └── SendMessages(writer)
+      │           └── Allows client user to type and send messages
+      │
+      └── Wait until one task finishes
+            └── Usually when "exit" is typed or connection is closed
+```

@@ -50,3 +50,5 @@ A custom console handling mechanism has been implemented to prevent incoming mes
     <li>Async/Await Programming</li>
 </ul>
 
+
+<img src="images/flowchart.png" alt="Flowchart" width="700">

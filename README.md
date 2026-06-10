@@ -1,4 +1,4 @@
-# Real-Time-Client-Server-Chat-Application-Using-C-
+# Real-Time-Client-Server-Chat-Application-Using-C#
 A TCP socket based console chat system that enables two-way asynchronous communication between a server and a client.
 
 <h2>📡 Chat Application</h2>
@@ -51,4 +51,4 @@ A custom console handling mechanism has been implemented to prevent incoming mes
 </ul>
 
 
-<img src="images/flowchart.png" alt="Flowchart" width="700">
+<img src="flowchart.png" alt="Flowchart" width="300">

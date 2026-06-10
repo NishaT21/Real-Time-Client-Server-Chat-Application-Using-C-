@@ -119,3 +119,12 @@ Program Class Loaded
       └── Wait until one task finishes
             └── Usually when "exit" is typed or connection is closed
 ```
+<h2>🚀 Future Enhancements</h2>
+
+<ul>
+  <li><strong>Multi-client support</strong> – Enable multiple clients to connect and communicate simultaneously.</li>
+  <li><strong>Graphical User Interface (GUI)</strong> – Develop a user-friendly interface using WPF or WinForms.</li>
+  <li><strong>File transfer functionality</strong> – Allow users to send and receive files through the chat system.</li>
+  <li><strong>Message encryption</strong> – Implement end-to-end encryption for secure communication.</li>
+  <li><strong>Chat history storage</strong> – Store and retrieve past conversations locally or via a database.</li>
+</ul>
